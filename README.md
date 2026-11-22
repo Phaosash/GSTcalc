@@ -36,13 +36,19 @@ Python 3.x<br>
 No additional libraries or dependencies required.
 
 <h2>Example Usage</h2>
-<h4>Input:</h4>
+<h3>Input:</h3>
 What was the purchase price of the item? 110.00
 
-<h4>Output:</h4>
-Total: $110.00<br>
-GST: $10.00<br>
-Net: $100.00<br>
+<h3>Output:</h3>
+Total: $1,000.00<br>
+GST: $90.90<br>
+Net: $909.09<br>
+
+<h4>Output Breakdown:</h4>
+Total = 1000<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= 1000 - (1000 / 1.10)<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= 1000 - 909.09<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;= 90.91
 
 <h2>Purpose:</h2>
 This project was created as a small practical Python utility to solve a common everyday problem: identifying the GST component of an invoice when only the final GST-inclusive amount is available.
